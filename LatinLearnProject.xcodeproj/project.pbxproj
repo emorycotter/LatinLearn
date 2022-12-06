@@ -7,18 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7CDA1012293E24BF0080DE59 /* LatinLearnProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1011293E24BF0080DE59 /* LatinLearnProjectApp.swift */; };
-		7CDA1014293E24BF0080DE59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1013293E24BF0080DE59 /* ContentView.swift */; };
-		7CDA1016293E24C00080DE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1015293E24C00080DE59 /* Assets.xcassets */; };
-		7CDA1019293E24C00080DE59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1018293E24C00080DE59 /* Preview Assets.xcassets */; };
+		7CDA1022293E26030080DE59 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1021293E26030080DE59 /* GoogleService-Info.plist */; };
+		7CDA1027293E267C0080DE59 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDA1026293E267C0080DE59 /* FirebaseAnalytics */; };
+		7CDA1029293E267C0080DE59 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDA1028293E267C0080DE59 /* FirebaseAuth */; };
+		7CDA102B293E267C0080DE59 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDA102A293E267C0080DE59 /* FirebaseDatabase */; };
+		7CDA102D293E267C0080DE59 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7CDA102C293E267C0080DE59 /* FirebaseFirestore */; };
+		7CDA1031293E40700080DE59 /* LatinLearnProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1030293E40700080DE59 /* LatinLearnProjectApp.swift */; };
+		7CDA1036293E40E60080DE59 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1035293E40E60080DE59 /* Colors.swift */; };
+		7CDA1038293E40EA0080DE59 /* GrammarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1037293E40EA0080DE59 /* GrammarGame.swift */; };
+		7CDA103A293E40F00080DE59 /* QuestionHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1039293E40F00080DE59 /* QuestionHub.swift */; };
+		7CDA103C293E40F30080DE59 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA103B293E40F30080DE59 /* QuestionType.swift */; };
+		7CDA103E293E40F70080DE59 /* VocabGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA103D293E40F70080DE59 /* VocabGame.swift */; };
+		7CDA1042293E41200080DE59 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1041293E41200080DE59 /* AccountViewModel.swift */; };
+		7CDA1044293E41240080DE59 /* GrammarGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1043293E41240080DE59 /* GrammarGameViewModel.swift */; };
+		7CDA1046293E41270080DE59 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1045293E41270080DE59 /* ScoreViewModel.swift */; };
+		7CDA1048293E412A0080DE59 /* VocabGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1047293E412A0080DE59 /* VocabGameViewModel.swift */; };
+		7CDA104A293E41430080DE59 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1049293E41430080DE59 /* BottomTextView.swift */; };
+		7CDA104C293E41470080DE59 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA104B293E41470080DE59 /* ChoiceTextView.swift */; };
+		7CDA104E293E414A0080DE59 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA104D293E414A0080DE59 /* GameColor.swift */; };
+		7CDA1050293E414D0080DE59 /* GrammarGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA104F293E414D0080DE59 /* GrammarGameView.swift */; };
+		7CDA1052293E41500080DE59 /* GrammarQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1051293E414F0080DE59 /* GrammarQuestionView.swift */; };
+		7CDA1054293E41570080DE59 /* GrammarWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1053293E41570080DE59 /* GrammarWelcomeView.swift */; };
+		7CDA1056293E415A0080DE59 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1055293E415A0080DE59 /* LoginView.swift */; };
+		7CDA1058293E41600080DE59 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1057293E41600080DE59 /* ScoreView.swift */; };
+		7CDA105A293E41640080DE59 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1059293E41640080DE59 /* SignUpView.swift */; };
+		7CDA105C293E41670080DE59 /* UserDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA105B293E41670080DE59 /* UserDashboard.swift */; };
+		7CDA105E293E416A0080DE59 /* VocabGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA105D293E416A0080DE59 /* VocabGameView.swift */; };
+		7CDA1060293E416C0080DE59 /* VocabQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA105F293E416C0080DE59 /* VocabQuestionView.swift */; };
+		7CDA1062293E41700080DE59 /* VocabularySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1061293E41700080DE59 /* VocabularySettings.swift */; };
+		7CDA1064293E41740080DE59 /* VocabWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDA1063293E41740080DE59 /* VocabWelcomeView.swift */; };
+		7CDA1067293E43030080DE59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1066293E43030080DE59 /* Images.xcassets */; };
+		7CDA1069293E43AC0080DE59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA1068293E43AC0080DE59 /* Images.xcassets */; };
+		7CDA106B293E43E90080DE59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA106A293E43E90080DE59 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CDA100E293E24BF0080DE59 /* LatinLearnProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatinLearnProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CDA1011293E24BF0080DE59 /* LatinLearnProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinLearnProjectApp.swift; sourceTree = "<group>"; };
-		7CDA1013293E24BF0080DE59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7CDA1015293E24C00080DE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7CDA1018293E24C00080DE59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CDA1021293E26030080DE59 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7CDA1030293E40700080DE59 /* LatinLearnProjectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinLearnProjectApp.swift; sourceTree = SOURCE_ROOT; };
+		7CDA1035293E40E60080DE59 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7CDA1037293E40EA0080DE59 /* GrammarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarGame.swift; sourceTree = "<group>"; };
+		7CDA1039293E40F00080DE59 /* QuestionHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHub.swift; sourceTree = "<group>"; };
+		7CDA103B293E40F30080DE59 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		7CDA103D293E40F70080DE59 /* VocabGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabGame.swift; sourceTree = "<group>"; };
+		7CDA1041293E41200080DE59 /* AccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		7CDA1043293E41240080DE59 /* GrammarGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarGameViewModel.swift; sourceTree = "<group>"; };
+		7CDA1045293E41270080DE59 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		7CDA1047293E412A0080DE59 /* VocabGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabGameViewModel.swift; sourceTree = "<group>"; };
+		7CDA1049293E41430080DE59 /* BottomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		7CDA104B293E41470080DE59 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		7CDA104D293E414A0080DE59 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		7CDA104F293E414D0080DE59 /* GrammarGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarGameView.swift; sourceTree = "<group>"; };
+		7CDA1051293E414F0080DE59 /* GrammarQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarQuestionView.swift; sourceTree = "<group>"; };
+		7CDA1053293E41570080DE59 /* GrammarWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarWelcomeView.swift; sourceTree = "<group>"; };
+		7CDA1055293E415A0080DE59 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7CDA1057293E41600080DE59 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		7CDA1059293E41640080DE59 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7CDA105B293E41670080DE59 /* UserDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDashboard.swift; sourceTree = "<group>"; };
+		7CDA105D293E416A0080DE59 /* VocabGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabGameView.swift; sourceTree = "<group>"; };
+		7CDA105F293E416C0080DE59 /* VocabQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabQuestionView.swift; sourceTree = "<group>"; };
+		7CDA1061293E41700080DE59 /* VocabularySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularySettings.swift; sourceTree = "<group>"; };
+		7CDA1063293E41740080DE59 /* VocabWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabWelcomeView.swift; sourceTree = "<group>"; };
+		7CDA1066293E43030080DE59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CDA1068293E43AC0080DE59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CDA106A293E43E90080DE59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDA102B293E267C0080DE59 /* FirebaseDatabase in Frameworks */,
+				7CDA102D293E267C0080DE59 /* FirebaseFirestore in Frameworks */,
+				7CDA1027293E267C0080DE59 /* FirebaseAnalytics in Frameworks */,
+				7CDA1029293E267C0080DE59 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,18 +107,66 @@
 		7CDA1010293E24BF0080DE59 /* LatinLearnProject */ = {
 			isa = PBXGroup;
 			children = (
-				7CDA1011293E24BF0080DE59 /* LatinLearnProjectApp.swift */,
-				7CDA1013293E24BF0080DE59 /* ContentView.swift */,
-				7CDA1015293E24C00080DE59 /* Assets.xcassets */,
-				7CDA1017293E24C00080DE59 /* Preview Content */,
+				7CDA1065293E425A0080DE59 /* Preview Content */,
+				7CDA1034293E40CE0080DE59 /* ViewModels */,
+				7CDA1033293E40C00080DE59 /* Views */,
+				7CDA1032293E40B30080DE59 /* Models */,
+				7CDA1030293E40700080DE59 /* LatinLearnProjectApp.swift */,
+				7CDA1021293E26030080DE59 /* GoogleService-Info.plist */,
 			);
 			path = LatinLearnProject;
 			sourceTree = "<group>";
 		};
-		7CDA1017293E24C00080DE59 /* Preview Content */ = {
+		7CDA1032293E40B30080DE59 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7CDA1018293E24C00080DE59 /* Preview Assets.xcassets */,
+				7CDA1035293E40E60080DE59 /* Colors.swift */,
+				7CDA1037293E40EA0080DE59 /* GrammarGame.swift */,
+				7CDA1039293E40F00080DE59 /* QuestionHub.swift */,
+				7CDA103B293E40F30080DE59 /* QuestionType.swift */,
+				7CDA103D293E40F70080DE59 /* VocabGame.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7CDA1033293E40C00080DE59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA1049293E41430080DE59 /* BottomTextView.swift */,
+				7CDA104B293E41470080DE59 /* ChoiceTextView.swift */,
+				7CDA104D293E414A0080DE59 /* GameColor.swift */,
+				7CDA104F293E414D0080DE59 /* GrammarGameView.swift */,
+				7CDA1051293E414F0080DE59 /* GrammarQuestionView.swift */,
+				7CDA1053293E41570080DE59 /* GrammarWelcomeView.swift */,
+				7CDA1055293E415A0080DE59 /* LoginView.swift */,
+				7CDA1057293E41600080DE59 /* ScoreView.swift */,
+				7CDA1059293E41640080DE59 /* SignUpView.swift */,
+				7CDA105B293E41670080DE59 /* UserDashboard.swift */,
+				7CDA105D293E416A0080DE59 /* VocabGameView.swift */,
+				7CDA105F293E416C0080DE59 /* VocabQuestionView.swift */,
+				7CDA1061293E41700080DE59 /* VocabularySettings.swift */,
+				7CDA1063293E41740080DE59 /* VocabWelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7CDA1034293E40CE0080DE59 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA1041293E41200080DE59 /* AccountViewModel.swift */,
+				7CDA1043293E41240080DE59 /* GrammarGameViewModel.swift */,
+				7CDA1045293E41270080DE59 /* ScoreViewModel.swift */,
+				7CDA1047293E412A0080DE59 /* VocabGameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7CDA1065293E425A0080DE59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CDA106A293E43E90080DE59 /* Assets.xcassets */,
+				7CDA1068293E43AC0080DE59 /* Images.xcassets */,
+				7CDA1066293E43030080DE59 /* Images.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -83,6 +187,12 @@
 			dependencies = (
 			);
 			name = LatinLearnProject;
+			packageProductDependencies = (
+				7CDA1026293E267C0080DE59 /* FirebaseAnalytics */,
+				7CDA1028293E267C0080DE59 /* FirebaseAuth */,
+				7CDA102A293E267C0080DE59 /* FirebaseDatabase */,
+				7CDA102C293E267C0080DE59 /* FirebaseFirestore */,
+			);
 			productName = LatinLearnProject;
 			productReference = 7CDA100E293E24BF0080DE59 /* LatinLearnProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 7CDA1005293E24BF0080DE59;
+			packageReferences = (
+				7CDA1025293E267C0080DE59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7CDA100F293E24BF0080DE59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDA1019293E24C00080DE59 /* Preview Assets.xcassets in Resources */,
-				7CDA1016293E24C00080DE59 /* Assets.xcassets in Resources */,
+				7CDA1069293E43AC0080DE59 /* Images.xcassets in Resources */,
+				7CDA1022293E26030080DE59 /* GoogleService-Info.plist in Resources */,
+				7CDA106B293E43E90080DE59 /* Assets.xcassets in Resources */,
+				7CDA1067293E43030080DE59 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +252,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDA1014293E24BF0080DE59 /* ContentView.swift in Sources */,
-				7CDA1012293E24BF0080DE59 /* LatinLearnProjectApp.swift in Sources */,
+				7CDA1052293E41500080DE59 /* GrammarQuestionView.swift in Sources */,
+				7CDA1054293E41570080DE59 /* GrammarWelcomeView.swift in Sources */,
+				7CDA1031293E40700080DE59 /* LatinLearnProjectApp.swift in Sources */,
+				7CDA1042293E41200080DE59 /* AccountViewModel.swift in Sources */,
+				7CDA1050293E414D0080DE59 /* GrammarGameView.swift in Sources */,
+				7CDA105A293E41640080DE59 /* SignUpView.swift in Sources */,
+				7CDA104C293E41470080DE59 /* ChoiceTextView.swift in Sources */,
+				7CDA1044293E41240080DE59 /* GrammarGameViewModel.swift in Sources */,
+				7CDA105E293E416A0080DE59 /* VocabGameView.swift in Sources */,
+				7CDA1036293E40E60080DE59 /* Colors.swift in Sources */,
+				7CDA105C293E41670080DE59 /* UserDashboard.swift in Sources */,
+				7CDA1064293E41740080DE59 /* VocabWelcomeView.swift in Sources */,
+				7CDA104E293E414A0080DE59 /* GameColor.swift in Sources */,
+				7CDA1060293E416C0080DE59 /* VocabQuestionView.swift in Sources */,
+				7CDA1048293E412A0080DE59 /* VocabGameViewModel.swift in Sources */,
+				7CDA1056293E415A0080DE59 /* LoginView.swift in Sources */,
+				7CDA1058293E41600080DE59 /* ScoreView.swift in Sources */,
+				7CDA1062293E41700080DE59 /* VocabularySettings.swift in Sources */,
+				7CDA1038293E40EA0080DE59 /* GrammarGame.swift in Sources */,
+				7CDA104A293E41430080DE59 /* BottomTextView.swift in Sources */,
+				7CDA103A293E40F00080DE59 /* QuestionHub.swift in Sources */,
+				7CDA1046293E41270080DE59 /* ScoreViewModel.swift in Sources */,
+				7CDA103C293E40F30080DE59 /* QuestionType.swift in Sources */,
+				7CDA103E293E40F70080DE59 /* VocabGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +476,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7CDA1025293E267C0080DE59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7CDA1026293E267C0080DE59 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDA1025293E267C0080DE59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7CDA1028293E267C0080DE59 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDA1025293E267C0080DE59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7CDA102A293E267C0080DE59 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDA1025293E267C0080DE59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7CDA102C293E267C0080DE59 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7CDA1025293E267C0080DE59 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7CDA1006293E24BF0080DE59 /* Project object */;
 }

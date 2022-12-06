@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C1492392934E21D0034B500 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1492382934E21D0034B500 /* AccountViewModel.swift */; };
+		7C1D7AA7293D169E002DD36A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D7AA6293D169E002DD36A /* SignUpView.swift */; };
+		7C1D7AA9293D1DCF002DD36A /* QuestionHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D7AA8293D1DCE002DD36A /* QuestionHub.swift */; };
+		7C1D7AAB293D2634002DD36A /* GrammarGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D7AAA293D2634002DD36A /* GrammarGameView.swift */; };
+		7C1D7AAD293D2669002DD36A /* GrammarGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D7AAC293D2669002DD36A /* GrammarGameViewModel.swift */; };
+		7C1D7AAF293E1A2D002DD36A /* GrammarQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D7AAE293E1A2D002DD36A /* GrammarQuestionView.swift */; };
+		7C1D7AB5293E1F48002DD36A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C1D7AB2293E1D56002DD36A /* GoogleService-Info.plist */; };
+		7C1D7AB8293E209E002DD36A /* LatinLearn in Resources */ = {isa = PBXBuildFile; fileRef = 7C1D7AB6293E1F5D002DD36A /* LatinLearn */; };
+		7C1F60A028D7734B00FCFF16 /* LatinLearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1F609F28D7734B00FCFF16 /* LatinLearnApp.swift */; };
+		7C1F60A428D7734D00FCFF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1F60A328D7734D00FCFF16 /* Assets.xcassets */; };
+		7C1F60A728D7734D00FCFF16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1F60A628D7734D00FCFF16 /* Preview Assets.xcassets */; };
+		7C5458672931D17100054655 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5458662931D17100054655 /* FirebaseAnalytics */; };
+		7C5458692931D17100054655 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5458682931D17100054655 /* FirebaseAuth */; };
+		7C54586B2931D17100054655 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 7C54586A2931D17100054655 /* FirebaseAuthCombine-Community */; };
+		7C54586D2931D17100054655 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7C54586C2931D17100054655 /* FirebaseDatabase */; };
+		7C54586F2931D17100054655 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C54586E2931D17100054655 /* FirebaseDatabaseSwift */; };
+		7C5458712931D17100054655 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5458702931D17100054655 /* FirebaseFirestore */; };
+		7C5458732931D17100054655 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5458722931D17100054655 /* FirebaseFirestoreSwift */; };
+		7C5458752931D17100054655 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7C5458742931D17100054655 /* FirebaseStorage */; };
+		7C54587729327B4C00054655 /* GrammarGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C54587629327B4C00054655 /* GrammarGame.swift */; };
+		7C637429291730050075D985 /* VocabWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742629172FF60075D985 /* VocabWelcomeView.swift */; };
+		7C63742A2917305F0075D985 /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63741829172FF60075D985 /* ScoreViewModel.swift */; };
+		7C63742B291730610075D985 /* VocabGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63741929172FF60075D985 /* VocabGameViewModel.swift */; };
+		7C63742C291730B20075D985 /* VocabGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63741D29172FF60075D985 /* VocabGame.swift */; };
+		7C63742D291730B30075D985 /* QuestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63741E29172FF60075D985 /* QuestionType.swift */; };
+		7C63742E2917311E0075D985 /* VocabQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742229172FF60075D985 /* VocabQuestionView.swift */; };
+		7C63742F2917311F0075D985 /* VocabGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742329172FF60075D985 /* VocabGameView.swift */; };
+		7C637430291731210075D985 /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742529172FF60075D985 /* ChoiceTextView.swift */; };
+		7C637431291731220075D985 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742429172FF60075D985 /* GameColor.swift */; };
+		7C637432291731230075D985 /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742729172FF60075D985 /* BottomTextView.swift */; };
+		7C637433291731250075D985 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63742829172FF60075D985 /* ScoreView.swift */; };
+		7C6590EF28E3103B00A2DFDF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6590EE28E3103B00A2DFDF /* LoginView.swift */; };
+		7C94FBD228D8B96B00D56B72 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94FBD128D8B96B00D56B72 /* Colors.swift */; };
+		7CD41D2428F0909F00162D37 /* UserDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD41D2328F0909F00162D37 /* UserDashboard.swift */; };
+		7CD41D2628F094BC00162D37 /* GrammarWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD41D2528F094BC00162D37 /* GrammarWelcomeView.swift */; };
+		7CD41D2828F094CC00162D37 /* VocabularySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD41D2728F094CC00162D37 /* VocabularySettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C1492382934E21D0034B500 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		7C1D7AA6293D169E002DD36A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7C1D7AA8293D1DCE002DD36A /* QuestionHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHub.swift; sourceTree = "<group>"; };
+		7C1D7AAA293D2634002DD36A /* GrammarGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarGameView.swift; sourceTree = "<group>"; };
+		7C1D7AAC293D2669002DD36A /* GrammarGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarGameViewModel.swift; sourceTree = "<group>"; };
+		7C1D7AAE293E1A2D002DD36A /* GrammarQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarQuestionView.swift; sourceTree = "<group>"; };
+		7C1D7AB2293E1D56002DD36A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7C1D7AB6293E1F5D002DD36A /* LatinLearn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LatinLearn; path = LatinLearn/LatinLearn; sourceTree = SOURCE_ROOT; };
+		7C1F609C28D7734A00FCFF16 /* LatinLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatinLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1F609F28D7734B00FCFF16 /* LatinLearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatinLearnApp.swift; sourceTree = "<group>"; };
+		7C1F60A328D7734D00FCFF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C1F60A628D7734D00FCFF16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C54587629327B4C00054655 /* GrammarGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarGame.swift; sourceTree = "<group>"; };
+		7C63741829172FF60075D985 /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScoreViewModel.swift; path = ViewModels/ScoreViewModel.swift; sourceTree = "<group>"; };
+		7C63741929172FF60075D985 /* VocabGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabGameViewModel.swift; sourceTree = "<group>"; };
+		7C63741A29172FF60075D985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Code History/Assets.xcassets"; sourceTree = "<group>"; };
+		7C63741D29172FF60075D985 /* VocabGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabGame.swift; sourceTree = "<group>"; };
+		7C63741E29172FF60075D985 /* QuestionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionType.swift; sourceTree = "<group>"; };
+		7C63742029172FF60075D985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C63742229172FF60075D985 /* VocabQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabQuestionView.swift; sourceTree = "<group>"; };
+		7C63742329172FF60075D985 /* VocabGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabGameView.swift; sourceTree = "<group>"; };
+		7C63742429172FF60075D985 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		7C63742529172FF60075D985 /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		7C63742629172FF60075D985 /* VocabWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabWelcomeView.swift; sourceTree = "<group>"; };
+		7C63742729172FF60075D985 /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BottomTextView.swift; path = Views/BottomTextView.swift; sourceTree = "<group>"; };
+		7C63742829172FF60075D985 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScoreView.swift; path = Views/ScoreView.swift; sourceTree = "<group>"; };
+		7C6590EE28E3103B00A2DFDF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7C94FBD128D8B96B00D56B72 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7CD41D2328F0909F00162D37 /* UserDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDashboard.swift; sourceTree = "<group>"; };
+		7CD41D2528F094BC00162D37 /* GrammarWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrammarWelcomeView.swift; sourceTree = "<group>"; };
+		7CD41D2728F094CC00162D37 /* VocabularySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularySettings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C1F609928D7734A00FCFF16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C54586F2931D17100054655 /* FirebaseDatabaseSwift in Frameworks */,
+				7C5458672931D17100054655 /* FirebaseAnalytics in Frameworks */,
+				7C54586B2931D17100054655 /* FirebaseAuthCombine-Community in Frameworks */,
+				7C5458732931D17100054655 /* FirebaseFirestoreSwift in Frameworks */,
+				7C54586D2931D17100054655 /* FirebaseDatabase in Frameworks */,
+				7C5458752931D17100054655 /* FirebaseStorage in Frameworks */,
+				7C5458692931D17100054655 /* FirebaseAuth in Frameworks */,
+				7C5458712931D17100054655 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C1F609328D7734A00FCFF16 = {
+			isa = PBXGroup;
+			children = (
+				7C1F609E28D7734A00FCFF16 /* LatinLearn */,
+				7C1F609D28D7734A00FCFF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C1F609D28D7734A00FCFF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C1F609C28D7734A00FCFF16 /* LatinLearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C1F609E28D7734A00FCFF16 /* LatinLearn */ = {
+			isa = PBXGroup;
+			children = (
+				7C1D7AB6293E1F5D002DD36A /* LatinLearn */,
+				7C1D7AB2293E1D56002DD36A /* GoogleService-Info.plist */,
+				7C1F609F28D7734B00FCFF16 /* LatinLearnApp.swift */,
+				7C1F60AF28D773A200FCFF16 /* ViewModels */,
+				7C1F60AE28D7739B00FCFF16 /* Models */,
+				7C1F60AD28D7738D00FCFF16 /* Views */,
+				7C1F60A328D7734D00FCFF16 /* Assets.xcassets */,
+				7C63741A29172FF60075D985 /* Assets.xcassets */,
+				7C1F60A528D7734D00FCFF16 /* Preview Content */,
+			);
+			path = LatinLearn;
+			sourceTree = "<group>";
+		};
+		7C1F60A528D7734D00FCFF16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C63741F29172FF60075D985 /* Preview Content */,
+				7C1F60A628D7734D00FCFF16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C1F60AD28D7738D00FCFF16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C63742429172FF60075D985 /* GameColor.swift */,
+				7C6590EE28E3103B00A2DFDF /* LoginView.swift */,
+				7C1D7AA6293D169E002DD36A /* SignUpView.swift */,
+				7CD41D2328F0909F00162D37 /* UserDashboard.swift */,
+				7CD41D2728F094CC00162D37 /* VocabularySettings.swift */,
+				7C63742629172FF60075D985 /* VocabWelcomeView.swift */,
+				7C63742329172FF60075D985 /* VocabGameView.swift */,
+				7C63742229172FF60075D985 /* VocabQuestionView.swift */,
+				7C63742529172FF60075D985 /* ChoiceTextView.swift */,
+				7CD41D2528F094BC00162D37 /* GrammarWelcomeView.swift */,
+				7C1D7AAA293D2634002DD36A /* GrammarGameView.swift */,
+				7C1D7AAE293E1A2D002DD36A /* GrammarQuestionView.swift */,
+				7C63742729172FF60075D985 /* BottomTextView.swift */,
+				7C63742829172FF60075D985 /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C1F60AE28D7739B00FCFF16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C63741D29172FF60075D985 /* VocabGame.swift */,
+				7C54587629327B4C00054655 /* GrammarGame.swift */,
+				7C94FBD128D8B96B00D56B72 /* Colors.swift */,
+				7C63741E29172FF60075D985 /* QuestionType.swift */,
+				7C1D7AA8293D1DCE002DD36A /* QuestionHub.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C1F60AF28D773A200FCFF16 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7C63741929172FF60075D985 /* VocabGameViewModel.swift */,
+				7C1D7AAC293D2669002DD36A /* GrammarGameViewModel.swift */,
+				7C63741829172FF60075D985 /* ScoreViewModel.swift */,
+				7C1492382934E21D0034B500 /* AccountViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7C63741F29172FF60075D985 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7C63742029172FF60075D985 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C1F609B28D7734A00FCFF16 /* LatinLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C1F60AA28D7734D00FCFF16 /* Build configuration list for PBXNativeTarget "LatinLearn" */;
+			buildPhases = (
+				7C1F609828D7734A00FCFF16 /* Sources */,
+				7C1F609928D7734A00FCFF16 /* Frameworks */,
+				7C1F609A28D7734A00FCFF16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatinLearn;
+			packageProductDependencies = (
+				7C5458662931D17100054655 /* FirebaseAnalytics */,
+				7C5458682931D17100054655 /* FirebaseAuth */,
+				7C54586A2931D17100054655 /* FirebaseAuthCombine-Community */,
+				7C54586C2931D17100054655 /* FirebaseDatabase */,
+				7C54586E2931D17100054655 /* FirebaseDatabaseSwift */,
+				7C5458702931D17100054655 /* FirebaseFirestore */,
+				7C5458722931D17100054655 /* FirebaseFirestoreSwift */,
+				7C5458742931D17100054655 /* FirebaseStorage */,
+			);
+			productName = LatinLearn;
+			productReference = 7C1F609C28D7734A00FCFF16 /* LatinLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C1F609428D7734A00FCFF16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7C1F609B28D7734A00FCFF16 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7C1F609728D7734A00FCFF16 /* Build configuration list for PBXProject "LatinLearn" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C1F609328D7734A00FCFF16;
+			packageReferences = (
+				7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7C1F609D28D7734A00FCFF16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C1F609B28D7734A00FCFF16 /* LatinLearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C1F609A28D7734A00FCFF16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1D7AB8293E209E002DD36A /* LatinLearn in Resources */,
+				7C1F60A728D7734D00FCFF16 /* Preview Assets.xcassets in Resources */,
+				7C1D7AB5293E1F48002DD36A /* GoogleService-Info.plist in Resources */,
+				7C1F60A428D7734D00FCFF16 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C1F609828D7734A00FCFF16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1D7AAB293D2634002DD36A /* GrammarGameView.swift in Sources */,
+				7C637433291731250075D985 /* ScoreView.swift in Sources */,
+				7C94FBD228D8B96B00D56B72 /* Colors.swift in Sources */,
+				7CD41D2628F094BC00162D37 /* GrammarWelcomeView.swift in Sources */,
+				7CD41D2828F094CC00162D37 /* VocabularySettings.swift in Sources */,
+				7C637431291731220075D985 /* GameColor.swift in Sources */,
+				7C1D7AAF293E1A2D002DD36A /* GrammarQuestionView.swift in Sources */,
+				7C63742D291730B30075D985 /* QuestionType.swift in Sources */,
+				7C1492392934E21D0034B500 /* AccountViewModel.swift in Sources */,
+				7C637432291731230075D985 /* BottomTextView.swift in Sources */,
+				7C63742B291730610075D985 /* VocabGameViewModel.swift in Sources */,
+				7C1D7AA7293D169E002DD36A /* SignUpView.swift in Sources */,
+				7C54587729327B4C00054655 /* GrammarGame.swift in Sources */,
+				7CD41D2428F0909F00162D37 /* UserDashboard.swift in Sources */,
+				7C1D7AA9293D1DCF002DD36A /* QuestionHub.swift in Sources */,
+				7C63742A2917305F0075D985 /* ScoreViewModel.swift in Sources */,
+				7C637429291730050075D985 /* VocabWelcomeView.swift in Sources */,
+				7C1D7AAD293D2669002DD36A /* GrammarGameViewModel.swift in Sources */,
+				7C63742F2917311F0075D985 /* VocabGameView.swift in Sources */,
+				7C637430291731210075D985 /* ChoiceTextView.swift in Sources */,
+				7C63742C291730B20075D985 /* VocabGame.swift in Sources */,
+				7C6590EF28E3103B00A2DFDF /* LoginView.swift in Sources */,
+				7C63742E2917311E0075D985 /* VocabQuestionView.swift in Sources */,
+				7C1F60A028D7734B00FCFF16 /* LatinLearnApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7C1F60A828D7734D00FCFF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C1F60A928D7734D00FCFF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C1F60AB28D7734D00FCFF16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LatinLearn/Preview Content\"";
+				DEVELOPMENT_TEAM = FN5QCXXXMM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EmoryCotter.LatinLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7C1F60AC28D7734D00FCFF16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LatinLearn/Preview Content\"";
+				DEVELOPMENT_TEAM = FN5QCXXXMM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EmoryCotter.LatinLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C1F609728D7734A00FCFF16 /* Build configuration list for PBXProject "LatinLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C1F60A828D7734D00FCFF16 /* Debug */,
+				7C1F60A928D7734D00FCFF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C1F60AA28D7734D00FCFF16 /* Build configuration list for PBXNativeTarget "LatinLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C1F60AB28D7734D00FCFF16 /* Debug */,
+				7C1F60AC28D7734D00FCFF16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C5458662931D17100054655 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7C5458682931D17100054655 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		7C54586A2931D17100054655 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		7C54586C2931D17100054655 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7C54586E2931D17100054655 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		7C5458702931D17100054655 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7C5458722931D17100054655 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		7C5458742931D17100054655 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C5458652931D17100054655 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7C1F609428D7734A00FCFF16 /* Project object */;
+}
