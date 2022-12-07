@@ -16,10 +16,8 @@ struct ChoiceTextView: View {
                   .font(.body)
                   .bold()
                   .multilineTextAlignment(.center)
-                  .fixedSize()
-                  .padding(50)
+                  .padding()
                   .border(GameColor.darkAccent, width: 5)
-                  .position(x: 125, y: 500)
                   
                   
                   

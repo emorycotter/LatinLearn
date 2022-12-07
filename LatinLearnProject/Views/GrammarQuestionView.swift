@@ -19,20 +19,7 @@ struct GrammarQuestionView: View {
                 .multilineTextAlignment(.leading)
             Spacer()
             HStack {
-                ForEach(0..<(question.possibleAnswers.count - 2)) { index in
-                    Button {
-                        viewModel.makeGuess(atIndex: index)
-                        print("Tapped on option with the text: \(question.possibleAnswers[index])")
-                    } label: {
-                        ChoiceTextView(choiceText: question.possibleAnswers[index])
-                            .background(viewModel.color(forOptionIndex: index))
-                    }
-                    .disabled(viewModel.guessWasMade)
-                }
-            }
-            
-            HStack {
-                ForEach(2..<question.possibleAnswers.count) { index in
+                ForEach(0..<(question.possibleAnswers.count)) { index in
                     Button {
                         viewModel.makeGuess(atIndex: index)
                         print("Tapped on option with the text: \(question.possibleAnswers[index])")
