@@ -17,7 +17,7 @@ struct UserDashboard: View {
             VStack {
                 HStack {
                     VStack {
-                        Text("Hello \n")
+                        Text("Hello \nEmory Cotter")
                     
                     }
                     .padding()
@@ -41,7 +41,7 @@ struct UserDashboard: View {
                     NavigationLink {
                         GrammarWelcomeView()
                     } label: {
-                        Text("Translation")
+                        Text("Grammar")
                             .padding()
                             .foregroundColor(ColorScheme.darkAccent)
                             .font(.system(size: 30))

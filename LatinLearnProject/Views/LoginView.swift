@@ -41,6 +41,7 @@ struct LoginView: View {
                 
                 VStack {
                     //Title at the top of the screen
+                    /*
                     Text("LatinLearn")
                         .font(.largeTitle)
                         .fontWeight(.bold)
@@ -49,11 +50,12 @@ struct LoginView: View {
                         .offset(y: -60)
                     
                     Spacer()
+                     */
                     
                     Image(systemName: "key.icloud")
                         .resizable()
                         .frame(width: 120, height: 100)
-                        .padding(.bottom, 30)
+                        .padding(.bottom, 50)
                         .offset(y: -50)
                     
                     //Label for login bars

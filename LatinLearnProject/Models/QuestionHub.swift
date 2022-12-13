@@ -12,24 +12,15 @@ struct QuestionHub {
     //List of all possible grammar questions
     static var allGrammarQuestions = [
         GrammarQuestion(questionText: "How should adjectives agree with the nouns that they describe?", possibleAnswers: ["Case, Number, and Gender", "Case", "Number", "Number and Gender"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the Nominative case?", possibleAnswers: ["The possessive", "The direct object", "The indirect object", "The subject"], correctAnswerIndex: 3),
-        GrammarQuestion(questionText: "What is the Genetive case?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the Dative case?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the Accusative case?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the Ablative case?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the indicative mood?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the imperative mood?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "What is the subjunctive mood?", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0),
-        GrammarQuestion(questionText: "test", possibleAnswers: ["test", "test", "test", "test"], correctAnswerIndex: 0)
+        GrammarQuestion(questionText: "Name a use of the Nominative case", possibleAnswers: ["The possessive", "The direct object", "The indirect object", "The subject"], correctAnswerIndex: 3),
+        GrammarQuestion(questionText: "Name a use of the Genetive case", possibleAnswers: ["The direct object", "The indirect object", "The possessive", "The Subject"], correctAnswerIndex: 2),
+        GrammarQuestion(questionText: "Name a use of the Dative case", possibleAnswers: ["The direct object", "The possessive", "The indirect object", "The subject"], correctAnswerIndex: 2),
+        GrammarQuestion(questionText: "Name a use of the Ablative case", possibleAnswers: ["Manner", "Subject", "Possession", "Direct Object"], correctAnswerIndex: 0),
+        GrammarQuestion(questionText: "Name a use of the Accusative case", possibleAnswers: ["The indirect object", "The direct object", "Possession", "Means/Instrument"], correctAnswerIndex: 1),
+        GrammarQuestion(questionText: "What is the indicative mood?", possibleAnswers: ["Expresses Uncertainty", "Expresses Commands", "Expresses Wishes", "Expresses Facts"], correctAnswerIndex: 3),
+        GrammarQuestion(questionText: "What is the imperative mood?", possibleAnswers: ["Expresses Commands", "Expresses Facts", "Expresses Actions", "Expresses Needs"], correctAnswerIndex: 0),
+        GrammarQuestion(questionText: "What is the subjunctive mood?", possibleAnswers: ["Expresses Commands", "Expresses Reality", "Expresses Uncertainty", "Expresses Actions"], correctAnswerIndex: 2),
+        GrammarQuestion(questionText: "What does the present tense address?", possibleAnswers: ["Current Actions", "Future Actions", "Completed Actions", "Past Actions"], correctAnswerIndex: 0)
     ]
     
     //List of all possible vocabulary questions
